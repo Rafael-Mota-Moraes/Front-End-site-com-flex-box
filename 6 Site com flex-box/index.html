@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" href="style.css">
+    <title>MediCenter EXEMPLO</title>
+</head>
+<body>
+    <script type="text/javascript">
+    
+    window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                document.querySelector(".menu nav ul").style.display = 'none'
+            }else{
+                document.querySelector(".menu nav ul").style.display = 'flex'
+            }
+        })
+    }
+
+    </script>
+
+    <header>
+        <div class="container">
+           <div class="logo">
+                <a href="#"><img src="images/logo.png"></a>
+           </div>
+           <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="ativo"><a href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </header> 
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency case</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus.</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus.</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening hours</div>
+                    <div class="banner3_hours"><span>Dia 1 - Dia 2 : 09:00 - 17:00</span></div>
+                    <hr>
+                    <div class="banner3_hours"><span>Dia 1 - Dia 2 : 09:00 - 17:00</span></div>
+                    <hr>
+                    <div class="banner3_hours"><span>Dia 1 - Dia 2 : 09:00 - 17:00</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section class="">
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="images/dr.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolorem expedita at, voluptatibus labore dolore quibusdam. Ab dolore tempora soluta sint similique! Sapiente eum atque amet sed est expedita obcaecati.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="images/dr.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolorem expedita at, voluptatibus labore dolore quibusdam. Ab dolore tempora soluta sint similique! Sapiente eum atque amet sed est expedita obcaecati.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="images/dr.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolorem expedita at, voluptatibus labore dolore quibusdam. Ab dolore tempora soluta sint similique! Sapiente eum atque amet sed est expedita obcaecati.
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="images/dr.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolorem expedita at, voluptatibus labore dolore quibusdam. Ab dolore tempora soluta sint similique! Sapiente eum atque amet sed est expedita obcaecati.
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        Descrição da div
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        Descrição da div                
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    Descrição
+                </div>
+                <div class="fm_2">
+                    Descrição
+                </div>
+                <div class="fm_3">
+                    Descrição
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">MediCenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium velit totam hic nihil maiores sequi temporibus suscipit nemo veniam explicabo asperiores minus repellendus tenetur ipsam nisi quas eligendi, optio in.
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            -> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius nostrum temporibus soluta, odit dignissimos, tempora laudantium quas delectus consectetur nihil iure saepe aut recusandae laborum itaque facilis ipsam ea voluptatibus?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            -> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugiat qui quis molestiae odit error reiciendis nobis nostrum amet quos dolores explicabo magni accusamus laudantium dolor ducimus a, quasi incidunt!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                <span>Copyrigth - Todos os direitos reservados</span>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
